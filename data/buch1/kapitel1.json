@@ -1,0 +1,22 @@
+[
+    {
+        "deutsch": "Haus",
+        "arabisch": {
+            "singular": "بيت",
+            "plural": "بيوت"
+        }
+    },
+    {
+        "deutsch": "Schreiben",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "كتب",
+                "Gegenwart": "يكتب",
+                "Befehlsform": "اكتب",
+                "Nominalverb": "كتابة",
+                "Harf Jarr": "بـ"
+            }
+        }
+    }
+
+]

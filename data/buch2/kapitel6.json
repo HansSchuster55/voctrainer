@@ -1,0 +1,733 @@
+[
+    {
+        "deutsch": "optimistisch sein",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "تَفَاءَلَ",
+                "Gegenwart": "يَتَفَاءَلُ",
+                "Befehlsform": "تَفَاءَلْ",
+                "Nominalverb": "تَفَاؤُل",
+                "Harf Jarr": "بِـ"
+            }
+        }
+    },
+    {
+        "deutsch": "abschließen, austreten",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "تَخَرَّجَ",
+                "Gegenwart": "يَتَخَرَّجُ",
+                "Befehlsform": "تَخَرَّجْ",
+                "Nominalverb": "تَخَرُّج",
+                "Harf Jarr": "مِن"
+            }
+        }
+    },
+    {
+        "deutsch": "sich ausbreiten",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "عَمَّ",
+                "Gegenwart": "يَعُمُّ",
+                "Befehlsform": "عُمَّ",
+                "Nominalverb": "عُمُوم",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "bedeuten",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "عَنَى",
+                "Gegenwart": "يَعْنِي",
+                "Befehlsform": "اِعْنِ",
+                "Nominalverb": "عِنَايَة",
+                "Harf Jarr": "بِـ"
+            }
+        }
+    },
+    {
+        "deutsch": "Erfahrung",
+        "arabisch": {
+            "singular": "خِبْرَة",
+            "plural": "خِبَرَات"
+        }
+    },
+    {
+        "deutsch": "unversehrt, gesund",
+        "arabisch": {
+            "singular": "سَالِم",
+            "plural": "سَالِمُون"
+        }
+    },
+    {
+        "deutsch": "Interview, Treffen",
+        "arabisch": {
+            "singular": "مُقَابَلَة",
+            "plural": "مُقَابَلَات"
+        }
+    },
+    {
+        "deutsch": "Optimist",
+        "arabisch": {
+            "singular": "مُتَفَائِل",
+            "plural": "مُتَفَائِلُون"
+        }
+    },
+    {
+        "deutsch": "Hilfe, Unterstützung",
+        "arabisch": {
+            "singular": "مُسَاعَدَة",
+            "plural": "مُسَاعَدَات"
+        }
+    },
+    {
+        "deutsch": "seit, vor",
+        "arabisch": {
+            "singular": "مُنذُ"
+        }
+    },
+    {
+        "deutsch": "Suche, Forschung, Abhandlung",
+        "arabisch": {
+            "singular": "بَحْث",
+            "plural": "بُحُوث"
+        }
+    },
+    {
+        "deutsch": "Arbeitslosigkeit, Untätigkeit",
+        "arabisch": {
+            "singular": "بِطَالَة"
+        }
+    },
+    {
+        "deutsch": "meiste, Mehrheit",
+        "arabisch": {
+            "singular": "مُعْظَم"
+        }
+    },
+    {
+        "deutsch": "Nachricht, Meldung, Mitteilung",
+        "arabisch": {
+            "singular": "خَبَر",
+            "plural": "أَخْبَار"
+        }
+    },
+    {
+        "deutsch": "vielleicht, womöglich",
+        "arabisch": {
+            "singular": "لَعَلَّ",
+            "alternative": "عَسَى"
+        }
+    },
+    {
+        "deutsch": "gegensätzlich",
+        "arabisch": {
+            "singular": "مُتَضَاد",
+            "plural": "مُتَضَادَات",
+            "alternative": "عَكْس"
+        }
+    },
+    {
+        "deutsch": "richtig sein, korrekt sein, stimmen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "صَحَّ",
+                "Gegenwart": "يَصِحُّ",
+                "Befehlsform": "اِصْحَحْ",
+                "Nominalverb": "صِحَّة",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "erziehen, aufziehen, großziehen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "رَبَّى",
+                "Gegenwart": "يُرَبِّي",
+                "Befehlsform": "رَبِّ",
+                "Nominalverb": "تَرْبِيَة",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "leiten, führen, managen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَدَارَ",
+                "Gegenwart": "يُدِيرُ",
+                "Befehlsform": "أَدِرْ",
+                "Nominalverb": "إِدَارَة",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "geben, überreichen, schenken",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَعْطَى",
+                "Gegenwart": "يُعْطِي",
+                "Befehlsform": "أَعْطِ",
+                "Nominalverb": "إِعْطَاء",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "verderben, beschädigen, ruinieren",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَفْسَدَ",
+                "Gegenwart": "يُفْسِدُ",
+                "Befehlsform": "أَفْسِدْ",
+                "Nominalverb": "إِفْسَاد",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "reparieren, verbessern, versöhnen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَصْلَحَ",
+                "Gegenwart": "يُصْلِحُ",
+                "Befehlsform": "أَصْلِحْ",
+                "Nominalverb": "إِصْلَاح",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "ausführen, durchführen, führen zu",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَدَّى",
+                "Gegenwart": "يُؤَدِّي",
+                "Befehlsform": "أَدِّ",
+                "Nominalverb": "أَدَاء",
+                "Harf Jarr": "إِلَى"
+            }
+        }
+    },
+    {
+        "deutsch": "sich auflösen, zerfallen, auseinanderfallen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "تَفَكَّكَ",
+                "Gegenwart": "يَتَفَكَّكُ",
+                "Befehlsform": "تَفَكَّكْ",
+                "Nominalverb": "تَفَكُّك",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "passen, angemessen sein, entsprechen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "نَاسَبَ",
+                "Gegenwart": "يُنَاسِبُ",
+                "Befehlsform": "نَاسِبْ",
+                "Nominalverb": "مُنَاسَبَة",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "entfernen, fernhalten, verweisen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَبْعَدَ",
+                "Gegenwart": "يُبْعِدُ",
+                "Befehlsform": "أَبْعِدْ",
+                "Nominalverb": "إِبْعَاد",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "Wunsch, Ziel, Absicht",
+        "arabisch": {
+            "singular": "مُرَاد",
+            "plural": "مُرَادَات"
+        }
+    },
+    {
+        "deutsch": "Gehalt, Lohn, Vergütung",
+        "arabisch": {
+            "singular": "رَاتِب",
+            "plural": "رَوَاتِب"
+        }
+    },
+    {
+        "deutsch": "Stelle, Job",
+        "arabisch": {
+            "singular": "وَظِيفَة",
+            "plural": "وَظَائِف"
+        }
+    },
+    {
+        "deutsch": "grundlegend, wesentlich, Basis-",
+        "arabisch": {
+            "singular": "أَسَاسِي"
+        }
+    },
+    {
+        "deutsch": "Gruppe, Truppe",
+        "arabisch": {
+            "singular": "فِرْقَة",
+            "plural": "فِرَق"
+        }
+    },
+    {
+        "deutsch": "Team, Mannschaft, Gruppe",
+        "arabisch": {
+            "singular": "فَرِيق",
+            "plural": "فُرَق"
+        }
+    },
+    {
+        "deutsch": "Beispiel, Gleichnis, Sprichwort",
+        "arabisch": {
+            "singular": "مَثَل",
+            "plural": "أَمْثَال"
+        }
+    },
+    {
+        "deutsch": "anderer, weitere",
+        "arabisch": {
+            "singular": "آخَر",
+            "plural": "آخَرُون"
+        }
+    },
+    {
+        "deutsch": "Bedingung, Voraussetzung",
+        "arabisch": {
+            "singular": "شَرْط",
+            "plural": "شُرُوط"
+        }
+    },
+    {
+        "deutsch": "Gesellschaft, Gemeinschaft, Gemeinde",
+        "arabisch": {
+            "singular": "مُجْتَمَع",
+            "plural": "مُجْتَمَعَات"
+        }
+    },
+    {
+        "deutsch": "Teil, Abschnitt",
+        "arabisch": {
+            "singular": "جُزْء",
+            "plural": "أَجْزَاء"
+        }
+    },
+    {
+        "deutsch": "Diener, Bediensteter",
+        "arabisch": {
+            "singular": "خَادِم",
+            "plural": "خُدَّام"
+        }
+    },
+    {
+        "deutsch": "Dienerin, Dienstmädchen",
+        "arabisch": {
+            "singular": "خَادِمَة",
+            "plural": "خَادِمَات"
+        }
+    },
+    {
+        "deutsch": "Verlust, Ruin, Untergang",
+        "arabisch": {
+            "singular": "ضَيَاع",
+            "alternative": "فَقْد"
+        }
+    },
+    {
+        "deutsch": "Bereich, Feld, Sektor",
+        "arabisch": {
+            "singular": "مَجَال",
+            "plural": "مَجَالَات"
+        }
+    },
+    {
+        "deutsch": "Moral, Ethik, Verhalten",
+        "arabisch": {
+            "singular": "خُلُق",
+            "plural": "أَخْلَاق",
+            "alternative": "سُلُوك"
+        }
+    },
+    {
+        "deutsch": "Umgang, Gesellschaft, Kontakt",
+        "arabisch": {
+            "singular": "مُخَالَطَة",
+            "plural": "مُخَالَطَات",
+            "alternative": "اِخْتِلَاط"
+        }
+    },
+    {
+        "deutsch": "medizinisch, ärztlich",
+        "arabisch": {
+            "singular": "طِبِّي"
+        }
+    },
+    {
+        "deutsch": "Erzieher, Lehrer, Betreuer",
+        "arabisch": {
+            "singular": "مُرَبِّي",
+            "plural": "مُرَبُّون",
+            "alternative": "مُعَلِّم"
+        }
+    },
+    {
+        "deutsch": "Außerdem, darüber hinaus, ansonsten",
+        "arabisch": {
+            "singular": "غَيْر ذَلِكَ"
+        }
+    },
+    {
+        "deutsch": "weiblich, frauenspezifisch",
+        "arabisch": {
+            "singular": "نِسَائِي"
+        }
+    },
+    {
+        "deutsch": "Zerfall, Auflösung, Zersetzung",
+        "arabisch": {
+            "singular": "تَفَكُّك"
+        }
+    },
+    {
+        "deutsch": "auswandern, ins Ausland gehen, in der Fremde leben",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "اِغْتَرَبَ",
+                "Gegenwart": "يَغْتَرِبُ",
+                "Befehlsform": "اِغْتَرِبْ",
+                "Nominalverb": "اِغْتِرَاب",
+                "Harf Jarr": "ل"
+            }
+        }
+    },
+    {
+        "deutsch": "begleiten, Gesellschaft leisten",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "صَحِبَ",
+                "Gegenwart": "يَصْحَبُ",
+                "Befehlsform": "اِصْحَبْ",
+                "Nominalverb": "صُحْبَة",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "bewahren, erhalten, schützen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "حَافَظَ",
+                "Gegenwart": "يُحَافِظُ",
+                "Befehlsform": "حَافِظْ",
+                "Nominalverb": "مُحَافَظَة",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "bewahren, auswendig lernen, behalten",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "حَفِظَ",
+                "Gegenwart": "يَحْفَظُ",
+                "Befehlsform": "اِحْفَظْ",
+                "Nominalverb": "حِفْظ",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "hoffen, wünschen, erwarten",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "رَجَا",
+                "Gegenwart": "يَرْجُو",
+                "Befehlsform": "اِرْجُ",
+                "Nominalverb": "رَجَاء",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "behandeln, umgehen, verhandeln",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "عَامَلَ",
+                "Gegenwart": "يُعَامِلُ",
+                "Befehlsform": "عَامِلْ",
+                "Nominalverb": "مُعَامَلَة",
+                "Harf Jarr": "ب"
+            }
+        }
+    },
+    {
+        "deutsch": "Auswanderung, Exil, Fremde",
+        "arabisch": {
+            "singular": "اِغْتِرَاب"
+        }
+    },
+    {
+        "deutsch": "Heimat, Vaterland, Land",
+        "arabisch": {
+            "singular": "وَطَن",
+            "plural": "أَوْطَان"
+        }
+    },
+    {
+        "deutsch": "leicht, einfach, Ebene",
+        "arabisch": {
+            "singular": "سَهْل",
+            "plural": "سُهُول"
+        }
+    },
+    {
+        "deutsch": "natürlich, selbstverständlich",
+        "arabisch": {
+            "singular": "بِالطَّبْعِ"
+        }
+    },
+    {
+        "deutsch": "sonst, andernfalls, ansonsten",
+        "arabisch": {
+            "singular": "وَإِلَّا"
+        }
+    },
+    {
+        "deutsch": "Zeichen, Signal, Hinweis",
+        "arabisch": {
+            "singular": "إِشَارَة",
+            "plural": "إِشَارَات"
+        }
+    },
+    {
+        "deutsch": "Händler, Kaufmann, Geschäftsmann",
+        "arabisch": {
+            "singular": "تَاجِر",
+            "plural": "تُجَّار"
+        }
+    },
+    {
+        "deutsch": "Behandlung, Umgang",
+        "arabisch": {
+            "singular": "مُعَامَلَة",
+            "plural": "مُعَامَلَات"
+        }
+    },
+    {
+        "deutsch": "Industrie, Herstellung",
+        "arabisch": {
+            "singular": "صِنَاعَة",
+            "plural": "صِنَاعَات"
+        }
+    },
+    {
+        "deutsch": "Nutzen, Vorteil, Zins",
+        "arabisch": {
+            "singular": "فَائِدَة",
+            "plural": "فَوَائِد"
+        }
+    },
+    {
+        "deutsch": "sich verlassen auf, sich stützen auf, anvertrauen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "اِعْتَمَدَ",
+                "Gegenwart": "يَعْتَمِدُ",
+                "Befehlsform": "اِعْتَمِدْ",
+                "Nominalverb": "اِعْتِمَاد",
+                "Harf Jarr": "عَلَى"
+            }
+        }
+    },
+    {
+        "deutsch": "betteln, um Almosen bitten, betteln gehen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "تَسَوَّلَ",
+                "Gegenwart": "يَتَسَوَّلُ",
+                "Befehlsform": "تَسَوَّلْ",
+                "Nominalverb": "تَسَوُّل",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "werden, sein, zu etwas werden",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "غَدَا",
+                "Gegenwart": "يَغْدُو",
+                "Befehlsform": "اِغْدُ",
+                "Nominalverb": "غَدْو",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "Holz sammeln, Brennholz sammeln, Holz hacken",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "اِخْتَطَبَ",
+                "Gegenwart": "يَخْتَطِبُ",
+                "Befehlsform": "اِخْتَطِبْ",
+                "Nominalverb": "اِخْتِطَاب",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "Almosen geben, spenden, wohltätig sein",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "تَصَدَّقَ",
+                "Gegenwart": "يَتَصَدَّقُ",
+                "Befehlsform": "تَصَدَّقْ",
+                "Nominalverb": "تَصَدُّق",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "sich reinigen, sich säubern, sich waschen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "تَطَهَّرَ",
+                "Gegenwart": "يَتَطَهَّرُ",
+                "Befehlsform": "تَطَهَّرْ",
+                "Nominalverb": "تَطَهُّر",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "kommen, ankommen, erscheinen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَتَى",
+                "Gegenwart": "يَأْتِي",
+                "Befehlsform": "اِئْتِ",
+                "Nominalverb": "إِتْيَان",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "bezahlen, schieben, stoßen, verteidigen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "دَفَعَ",
+                "Gegenwart": "يَدْفَعُ",
+                "Befehlsform": "اِدْفَعْ",
+                "Nominalverb": "دَفْع",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "festhalten, ergreifen, halten",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَمْسَكَ",
+                "Gegenwart": "يُمْسِكُ",
+                "Befehlsform": "أَمْسِكْ",
+                "Nominalverb": "إِمْسَاك",
+                "Harf Jarr": "ب"
+            }
+        }
+    },
+    {
+        "deutsch": "übergeben, grüßen, abliefern",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "سَلَّمَ",
+                "Gegenwart": "يُسَلِّمُ",
+                "Befehlsform": "سَلِّمْ",
+                "Nominalverb": "تَسْلِيم",
+                "Harf Jarr": "ـ"
+            }
+        }
+    },
+    {
+        "deutsch": "Segen, Gnade, Wohltat",
+        "arabisch": {
+            "singular": "نِعْمَة",
+            "plural": "نِعَم"
+        }
+    },
+    {
+        "deutsch": "niemals",
+        "arabisch": {
+            "singular": "قَطّ"
+        }
+    },
+    {
+        "deutsch": "Schüssel, Schale, Platte",
+        "arabisch": {
+            "singular": "قَصْعَة",
+            "plural": "قِصَاع"
+        }
+    },
+    {
+        "deutsch": "Bett, Matratze",
+        "arabisch": {
+            "singular": "فِرَاش",
+            "plural": "أَفْرِشَة"
+        }
+    },
+    {
+        "deutsch": "Beduine, Wüstenbewohner, Nomade",
+        "arabisch": {
+            "singular": "أَعْرَابِي",
+            "plural": "أَعْرَاب"
+        }
+    },
+    {
+        "deutsch": "Begleiter, Gefährte, Besitzer",
+        "arabisch": {
+            "singular": "صَاحِب",
+            "plural": "أَصْحَاب"
+        }
+    },
+    {
+        "deutsch": "Dauer, Zeitspanne, Frist",
+        "arabisch": {
+            "singular": "مُدَّة",
+            "plural": "مُدَد"
+        }
+    },
+    {
+        "deutsch": "Stab, Holz, Stock",
+        "arabisch": {
+            "singular": "عُود",
+            "plural": "أَعْوَاد"
+        }
+    },
+    {
+        "deutsch": "Bettelei, Betteln",
+        "arabisch": {
+            "singular": "تَسَوُّل"
+        }
+    },
+    {
+        "deutsch": "Heil, sicher, erfolgreich",
+        "arabisch": {
+            "singular": "سَالِمًا",
+            "alternative": "غَانِمًا"
+        }
+    }
+]
+
+
