@@ -10,11 +10,46 @@ const progressEl = document.getElementById('progress');
 const resultEl = document.getElementById('result');
 
 // Definition der Bücher und Kapitel
+// Definition der Bücher und Kapitel
 const books = {
-    "Buch 1": ["Kapitel 1", "Kapitel 2", /* ... bis Kapitel 20 */],
-    "Buch 2": ["Kapitel 1", "Kapitel 2", "Kapitel 6" /* ... */],
-    // Bis Buch 8
+    "Buch 1": [
+        "Kapitel 1: Einführungen",
+        "Kapitel 2: Die Familie",
+        "Kapitel 3: Das Zuhause",
+        "Kapitel 4: Das tägliche Leben",
+        "Kapitel 5: Essen und Trinken",
+        "Kapitel 6: Das Gebet",
+        "Kapitel 7: Studien",
+        "Kapitel 8: Arbeit",
+        "Kapitel 9: Einkaufen",
+        "Kapitel 10: Das Wetter",
+        "Kapitel 11: Menschen und Orte",
+        "Kapitel 12: Hobbys",
+        "Kapitel 13: Reisen",
+        "Kapitel 14: Hajj und Umrah",
+        "Kapitel 15: Gesundheit",
+        "Kapitel 16: Feiertage"
+    ],
+    "Buch 2": [
+        "Kapitel 1: Gesundheitswesen",
+        "Kapitel 2: Freizeit",
+        "Kapitel 3: Eheleben",
+        "Kapitel 4: Stadtleben",
+        "Kapitel 5: Lehren und Lernen",
+        "Kapitel 6: Berufe",
+        "Kapitel 7: Die arabische Sprache",
+        "Kapitel 8: Geschenke",
+        "Kapitel 9: Die Welt ist ein kleines Dorf",
+        "Kapitel 10: Sauberkeit",
+        "Kapitel 11: Islam",
+        "Kapitel 12: Die Jugend",
+        "Kapitel 13: Die islamische Welt",
+        "Kapitel 14: Sicherheit",
+        "Kapitel 15: Umweltverschmutzung",
+        "Kapitel 16: Energie"
+    ]
 };
+
 
 let currentBook = null;
 let currentChapter = null;
