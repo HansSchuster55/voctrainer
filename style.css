@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Standardgröße für den gesamten Text */
+    margin: 0;
+    display: flex;
+}
+
+/* Seitenleiste */
+#sidebar {
+    width: 250px;
+    background-color: #f8f9fa; /* Bootstrap's light gray */
+    padding: 15px;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+}
+
+#sidebar .sidebar-heading {
+    font-size: 16px; /* Kleinere Schriftgröße für die Überschrift */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sidebar .chapter {
+    font-size: 14px; /* Kleinere Schriftgröße für Kapitel in der Sidebar */
+}
+
+#main-content {
+    margin-left: 250px; /* Gleiche Breite wie die Seitenleiste */
+    flex: 1;
+    padding: 20px;
+}
+
+#progress {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 5px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.circle.correct {
+    background-color: green !important; /* Wichtig: Stellen Sie sicher, dass der Hintergrund überschrieben wird */
+}
+
+.circle.incorrect {
+    background-color: red !important; /* Wichtig: Stellen Sie sicher, dass der Hintergrund überschrieben wird */
+}
+
+/* RTL-Unterstützung für arabischen Text */
+.arabic-text {
+    direction: rtl;
+    font-size: 30px !important; /* !important erzwingt die Schriftgröße */
+}
+
+/* Zusätzlicher Selektor für bestimmte Wörter, falls nötig */
+#main-content p {
+    font-size: 30px !important; /* Text im Hauptbereich größer */
+}
