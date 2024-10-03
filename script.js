@@ -8,6 +8,14 @@ const correctBtn = document.getElementById('correct');
 const incorrectBtn = document.getElementById('incorrect');
 const progressEl = document.getElementById('progress');
 const resultEl = document.getElementById('result');
+const abortBtn = document.createElement('button');
+
+// Abbruch-Button erstellen
+abortBtn.id = 'abort';
+abortBtn.classList.add('btn', 'btn-warning', 'btn-lg', 'my-2');
+abortBtn.textContent = 'Abbrechen und Auswerten';
+abortBtn.style.display = 'none';
+quizContainer.appendChild(abortBtn);
 
 // Definition der Bücher und Kapitel
 const books = {
@@ -54,6 +62,7 @@ let currentChapter = null;
 let vocabList = [];
 let currentIndex = 0;
 let userAnswers = [];
+let incorrectVocabList = []; // Speichert die falsch beantworteten Vokabeln
 
 // Navigationsleiste aufbauen
 function buildNavigation() {
@@ -122,9 +131,11 @@ function startQuiz(book, chapter) {
     currentBook = book;
     currentChapter = chapter;
     userAnswers = [];
+    incorrectVocabList = []; // Setzt die Liste der falschen Vokabeln zurück
     progressEl.innerHTML = '';
     quizContainer.style.display = 'block';
     resultEl.style.display = 'none';
+    abortBtn.style.display = 'inline-block';
 
     // Buch- und Kapitelnummer mithilfe von Regex extrahieren
     let bookNumberMatch = book.match(/\d+/);
@@ -143,11 +154,6 @@ function startQuiz(book, chapter) {
 
     // Datenpfad erstellen
     let dataPath = `data/buch${bookNumber}/kapitel${chapterNumberPadded}.json`;
-
-    // Pfad ausgeben
-    console.log('Buchnummer:', bookNumber);
-    console.log('Kapitelnummer:', chapterNumber);
-    console.log('Datenpfad:', dataPath);
 
     // Daten laden
     fetch(dataPath)
@@ -227,29 +233,32 @@ correctBtn.addEventListener('click', () => {
 
 incorrectBtn.addEventListener('click', () => {
     userAnswers.push(false);
+    incorrectVocabList.push(vocabList[currentIndex]); // Falsche Vokabel speichern
     updateProgress(false);
     currentIndex++;
     loadQuestion();
 });
 
+abortBtn.addEventListener('click', () => {
+    showResult();
+});
+
 function updateProgress(isCorrect) {
     let circles = document.querySelectorAll('.circle');
     let circle = circles[currentIndex];
-    console.log(`Aktualisiere den Fortschrittskreis: ${currentIndex}, Richtig: ${isCorrect}`);
     if (circle) {
         if (isCorrect) {
             circle.classList.add('correct');
         } else {
             circle.classList.add('incorrect');
         }
-    } else {
-        console.error('Kein Kreis gefunden für den aktuellen Index');
     }
 }
 
 function showResult() {
     quizContainer.style.display = 'none';
     resultEl.style.display = 'block';
+    abortBtn.style.display = 'inline-block'; // Abbruch-Button bleibt sichtbar
 
     let correctAnswers = userAnswers.filter(ans => ans).length;
     let total = userAnswers.length;
@@ -259,39 +268,19 @@ function showResult() {
         <h2>Ergebnis</h2>
         <p>Richtig beantwortet: ${correctAnswers} von ${total}</p>
         <p>Prozentsatz: ${percentage}%</p>
-        <canvas id="resultChart" width="400" height="400"></canvas>
         <button id="retry" class="btn btn-primary btn-lg">Falsche Vokabeln wiederholen</button>
     `;
-
-    // Kuchendiagramm zeichnen
-    drawChart(correctAnswers, total - correctAnswers);
 
     document.getElementById('retry').addEventListener('click', retryIncorrect);
 }
 
-function drawChart(correct, incorrect) {
-    const ctx = document.getElementById('resultChart').getContext('2d');
-    const chart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-            labels: ['Richtig', 'Falsch'],
-            datasets: [{
-                data: [correct, incorrect],
-                backgroundColor: ['green', 'red']
-            }]
-        },
-        options: {}
-    });
-}
-
 function retryIncorrect() {
-    // Nur die falsch beantworteten Vokabeln erneut abfragen
-    let incorrectVocab = vocabList.filter((vocab, index) => !userAnswers[index]);
-    if (incorrectVocab.length === 0) {
+    if (incorrectVocabList.length === 0) {
         alert('Alle Vokabeln wurden richtig beantwortet!');
         return;
     }
-    vocabList = incorrectVocab;
+    vocabList = [...incorrectVocabList]; // Nur falsch beantwortete Vokabeln verwenden
+    incorrectVocabList = []; // Liste der falschen Vokabeln zurücksetzen, um nur die neuen Fehler zu sammeln
     currentIndex = 0;
     userAnswers = [];
     progressEl.innerHTML = '';
