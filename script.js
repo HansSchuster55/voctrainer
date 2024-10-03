@@ -188,7 +188,7 @@ function initializeProgress() {
 function loadQuestion() {
     if (currentIndex < vocabList.length) {
         let vocab = vocabList[currentIndex];
-        questionEl.textContent = `Was ist die arabische Übersetzung für: "${vocab.deutsch}"?`;
+        questionEl.textContent = `"${vocab.deutsch}"?`;
         answerEl.style.display = 'none';
         showAnswerBtn.style.display = 'inline-block';
         correctBtn.style.display = 'none';
