@@ -2,98 +2,118 @@
     {
         "deutsch": "präsentieren, vorstellen, einreichen, vorlegen",
         "arabisch": {
-            "Vergangenheit": "قَدَّمَ",
-            "Gegenwart": "يُقَدِّمُ",
-            "Befehlsform": "قَدِّمْ",
-            "Nominalverb": "تَقْدِيم",
-            "Harf Jarr": "بِـ"
+            "verb": {
+                "Vergangenheit": "قَدَّمَ",
+                "Gegenwart": "يُقَدِّمُ",
+                "Befehlsform": "قَدِّمْ",
+                "Nominalverb": "تَقْدِيم",
+                "Harf Jarr": "بِـ"
+            }
         }
     },
     {
         "deutsch": "zustimmen, einverstanden sein",
         "arabisch": {
-            "Vergangenheit": "وَافَقَ",
-            "Gegenwart": "يُوَافِقُ",
-            "Befehlsform": "وَافِقْ",
-            "Nominalverb": "مُوَافَقَة",
-            "Harf Jarr": "عَلَى"
+            "verb": {
+                "Vergangenheit": "وَافَقَ",
+                "Gegenwart": "يُوَافِقُ",
+                "Befehlsform": "وَافِقْ",
+                "Nominalverb": "مُوَافَقَة",
+                "Harf Jarr": "عَلَى"
+            }
         }
     },
     {
         "deutsch": "wünschen, begehren, wollen",
         "arabisch": {
-            "Vergangenheit": "رَغِبَ",
-            "Gegenwart": "يَرْغَبُ",
-            "Befehlsform": "اِرْغَبْ",
-            "Nominalverb": "رَغْبَة",
-            "Harf Jarr": "فِي"
+            "verb": {
+                "Vergangenheit": "رَغِبَ",
+                "Gegenwart": "يَرْغَبُ",
+                "Befehlsform": "اِرْغَبْ",
+                "Nominalverb": "رَغْبَة",
+                "Harf Jarr": "فِي"
+            }
         }
     },
     {
         "deutsch": "nicht wünschen, nicht mögen, nicht wollen",
         "arabisch": {
-            "Vergangenheit": "رَغِبَ عَنْ",
-            "Gegenwart": "يَرْغَبُ عَنْ",
-            "Befehlsform": "اِرْغَبْ عَنْ",
-            "Nominalverb": "رَغْبَة عَنْ",
-            "Harf Jarr": "عَنْ"
+            "verb": {
+                "Vergangenheit": "رَغِبَ عَنْ",
+                "Gegenwart": "يَرْغَبُ عَنْ",
+                "Befehlsform": "اِرْغَبْ عَنْ",
+                "Nominalverb": "رَغْبَة عَنْ",
+                "Harf Jarr": "عَنْ"
+            }
         }
     },
     {
         "deutsch": "akzeptieren, annehmen, zulassen",
         "arabisch": {
-            "Vergangenheit": "قَبِلَ",
-            "Gegenwart": "يَقْبَلُ",
-            "Befehlsform": "اِقْبَلْ",
-            "Nominalverb": "قُبُول",
-            "Harf Jarr": "بِـ"
+            "verb": {
+                "Vergangenheit": "قَبِلَ",
+                "Gegenwart": "يَقْبَلُ",
+                "Befehlsform": "اِقْبَلْ",
+                "Nominalverb": "قُبُول",
+                "Harf Jarr": "بِـ"
+            }
         }
     },
     {
         "deutsch": "Erfolg verleihen",
         "arabisch": {
-            "Vergangenheit": "وَفَّقَ",
-            "Gegenwart": "يُوَفِّقُ",
-            "Befehlsform": "وَفِّقْ",
-            "Nominalverb": "تَوْفِيق"
+            "verb": {
+                "Vergangenheit": "وَفَّقَ",
+                "Gegenwart": "يُوَفِّقُ",
+                "Befehlsform": "وَفِّقْ",
+                "Nominalverb": "تَوْفِيق"
+            }
         }
     },
     {
         "deutsch": "sich ereignen, stattfinden, passieren",
         "arabisch": {
-            "Vergangenheit": "حَصَلَ",
-            "Gegenwart": "يَحْصُلُ",
-            "Befehlsform": "اِحْصُلْ",
-            "Nominalverb": "حُصُول"
+            "verb": {
+                "Vergangenheit": "حَصَلَ",
+                "Gegenwart": "يَحْصُلُ",
+                "Befehlsform": "اِحْصُلْ",
+                "Nominalverb": "حُصُول"
+            }
         }
     },
     {
         "deutsch": "erlangen, erhalten, bekommen",
         "arabisch": {
-            "Vergangenheit": "حَصَلَ عَلَى",
-            "Gegenwart": "يَحْصُلُ عَلَى",
-            "Befehlsform": "اِحْصُلْ عَلَى",
-            "Nominalverb": "حُصُول عَلَى",
-            "Harf Jarr": "عَلَى"
+            "verb": {
+                "Vergangenheit": "حَصَلَ عَلَى",
+                "Gegenwart": "يَحْصُلُ عَلَى",
+                "Befehlsform": "اِحْصُلْ عَلَى",
+                "Nominalverb": "حُصُول عَلَى",
+                "Harf Jarr": "عَلَى"
+            }
         }
     },
     {
         "deutsch": "bewahren, behüten, speichern, auswendig lernen",
         "arabisch": {
-            "Vergangenheit": "حَفِظَ",
-            "Gegenwart": "يَحْفَظُ",
-            "Befehlsform": "اِحْفَظْ",
-            "Nominalverb": "حِفْظ"
+            "verb": {
+                "Vergangenheit": "حَفِظَ",
+                "Gegenwart": "يَحْفَظُ",
+                "Befehlsform": "اِحْفَظْ",
+                "Nominalverb": "حِفْظ"
+            }
         }
     },
     {
         "deutsch": "beitreten, sich anschließen",
         "arabisch": {
-            "Vergangenheit": "اِلْتَحَقَ",
-            "Gegenwart": "يَلْتَحِقُ",
-            "Befehlsform": "اِلْتَحِقْ",
-            "Nominalverb": "اِلْتِحَاق",
-            "Harf Jarr": "بِـ"
+            "verb": {
+                "Vergangenheit": "اِلْتَحَقَ",
+                "Gegenwart": "يَلْتَحِقُ",
+                "Befehlsform": "اِلْتَحِقْ",
+                "Nominalverb": "اِلْتِحَاق",
+                "Harf Jarr": "بِـ"
+            }
         }
     },
     {
@@ -398,183 +418,181 @@
             }
         }
     },
-        {
-            "deutsch": "Zivilisation, Kultur",
-            "arabisch": {
-                "singular": "حَضَارَة",
-                "plural": "حَضَارَات"
+    {
+        "deutsch": "Zivilisation, Kultur",
+        "arabisch": {
+            "singular": "حَضَارَة",
+            "plural": "حَضَارَات"
+        }
+    },
+    {
+        "deutsch": "Pharmazie",
+        "arabisch": {
+            "singular": "صَيْدَلَة",
+            "plural": "-"
+        }
+    },
+    {
+        "deutsch": "Geographie, Erdkunde",
+        "arabisch": {
+            "singular": "جُغْرَافِيَا",
+            "plural": "-"
+        }
+    },
+    {
+        "deutsch": "Astronomie, Gestirne",
+        "arabisch": {
+            "singular": "فَلَك",
+            "plural": "أَفْلَاك"
+        }
+    },
+    {
+        "deutsch": "Gelehrter, Wissender, Wissenschaftler",
+        "arabisch": {
+            "singular": "عَالِم",
+            "plural": "عُلَمَاء"
+        }
+    },
+    {
+        "deutsch": "Mann, Kerl",
+        "arabisch": {
+            "singular": "رَجُل",
+            "plural": "رِجَال"
+        }
+    },
+    {
+        "deutsch": "Unwissenheit",
+        "arabisch": {
+            "singular": "جَهْل",
+            "plural": "-"
+        }
+    },
+    {
+        "deutsch": "Institut, Anstalt",
+        "arabisch": {
+            "singular": "مَعْهَد",
+            "plural": "مَعَاهِد"
+        }
+    },
+    {
+        "deutsch": "Mal, einmal",
+        "arabisch": {
+            "singular": "مَرَّة",
+            "plural": "مَرَّات"
+        }
+    },
+    {
+        "deutsch": "wieder, anderes Mal",
+        "arabisch": {
+            "singular": "مَرَّة أُخْرَى",
+            "plural": "-"
+        }
+    },
+    {
+        "deutsch": "beenden, fertigstellen, abschließen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَنْهَى",
+                "Gegenwart": "يُنْهِي",
+                "Befehlsform": "اِنْهِ",
+                "Nominalverb": "إِنْهَاء"
             }
-        },
-        {
-            "deutsch": "Pharmazie",
-            "arabisch": {
-                "singular": "صَيْدَلَة",
-                "plural": "-"
+        }
+    },
+    {
+        "deutsch": "schwanken zwischen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "تَرَاوَحَ",
+                "Gegenwart": "يَتَرَاوَحُ",
+                "Befehlsform": "تَرَاوَحْ",
+                "Nominalverb": "تَرَاوُح"
             }
-        },
-        {
-            "deutsch": "Geographie, Erdkunde",
-            "arabisch": {
-                "singular": "جُغْرَافِيَا",
-                "plural": "-"
+        }
+    },
+    {
+        "deutsch": "beaufsichtigen, kontrollieren, überwachen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "أَشْرَفَ",
+                "Gegenwart": "يُشْرِفُ",
+                "Befehlsform": "اِشْرِفْ",
+                "Nominalverb": "إِشْرَاف"
             }
-        },
-        {
-            "deutsch": "Astronomie, Gestirne",
-            "arabisch": {
-                "singular": "فَلَك",
-                "plural": "أَفْلَاك"
+        }
+    },
+    {
+        "deutsch": "bereitstellen, zur Verfügung stellen",
+        "arabisch": {
+            "verb": {
+                "Vergangenheit": "وَفَّرَ",
+                "Gegenwart": "يُوَفِّرُ",
+                "Befehlsform": "وَفِّرْ",
+                "Nominalverb": "تَوْفِير"
             }
-        },
-        {
-            "deutsch": "Gelehrter, Wissender, Wissenschaftler",
-            "arabisch": {
-                "singular": "عَالِم",
-                "plural": "عُلَمَاء"
-            }
-        },
-        {
-            "deutsch": "Mann, Kerl",
-            "arabisch": {
-                "singular": "رَجُل",
-                "plural": "رِجَال"
-            }
-        },
-        {
-            "deutsch": "Unwissenheit",
-            "arabisch": {
-                "singular": "جَهْل",
-                "plural": "-"
-            }
-        },
-        {
-            "deutsch": "Institut, Anstalt",
-            "arabisch": {
-                "singular": "مَعْهَد",
-                "plural": "مَعَاهِد"
-            }
-        },
-        {
-            "deutsch": "Mal, einmal",
-            "arabisch": {
-                "singular": "مَرَّة",
-                "plural": "مَرَّات"
-            }
-        },
-        {
-            "deutsch": "wieder, anderes Mal",
-            "arabisch": {
-                "singular": "مَرَّة أُخْرَى",
-                "plural": "-"
-            }
-        },
-        {
-            "deutsch": "beenden, fertigstellen, abschließen",
-            "arabisch": {
-                "verb": {
-                    "Vergangenheit": "أَنْهَى",
-                    "Gegenwart": "يُنْهِي",
-                    "Befehlsform": "اِنْهِ",
-                    "Nominalverb": "إِنْهَاء"
-                }
-            }
-        },
-        {
-            "deutsch": "schwanken zwischen",
-            "arabisch": {
-                "verb": {
-                    "Vergangenheit": "تَرَاوَحَ",
-                    "Gegenwart": "يَتَرَاوَحُ",
-                    "Befehlsform": "تَرَاوَحْ",
-                    "Nominalverb": "تَرَاوُح"
-                }
-            }
-        },
-        {
-            "deutsch": "beaufsichtigen, kontrollieren, überwachen",
-            "arabisch": {
-                "verb": {
-                    "Vergangenheit": "أَشْرَفَ",
-                    "Gegenwart": "يُشْرِفُ",
-                    "Befehlsform": "اِشْرِفْ",
-                    "Nominalverb": "إِشْرَاف"
-                }
-            }
-        },
-        {
-            "deutsch": "bereitstellen, zur Verfügung stellen",
-            "arabisch": {
-                "verb": {
-                    "Vergangenheit": "وَفَّرَ",
-                    "Gegenwart": "يُوَفِّرُ",
-                    "Befehlsform": "وَفِّرْ",
-                    "Nominalverb": "تَوْفِير"
-                }
-            }
-        },
-        {
-            "deutsch": "während, im Laufe von, inzwischen, mittels",
-            "arabisch": {
-                "singular": "خِلالَ",
-                "plural": "-"
-            }
-        },
-        {
-            "deutsch": "Kinderkrippe",
-            "arabisch": {
-                "singular": "حَضَانَة",
-                "plural": "حَضَانَات"
-            }
-        },
-        {
-            "deutsch": "Kindergarten",
-            "arabisch": {
-                "singular": "رَوْضَة",
-                "plural": "رَوْضَات"
-            }
-        },
-        {
-            "deutsch": "Vorschule, vorbereitend, vorläufig",
-            "arabisch": {
-                "singular": "التَّمْهِيدِي",
-                "plural": "-"
-            }
-        },
-            {
-                "deutsch": "Gewohnheit, Regel, Brauch, Sitte",
-                "arabisch": {
-                    "singular": "عَادَة",
-                    "plural": "عَادَات"
-                }
-            },
-            {
-                "deutsch": "staatlich, behördlich",
-                "arabisch": {
-                    "singular": "حُكُومِيّ",
-                    "plural": "-"
-                }
-            },
-            {
-                "deutsch": "heimisch, inländisch, national, privat",
-                "arabisch": {
-                    "singular": "أَهْلِيّ",
-                    "plural": "-"
-                }
-            },
-            {
-                "deutsch": "Organisation, Verein, Gemeinschaft",
-                "arabisch": {
-                    "singular": "جَمْعِيَّة",
-                    "plural": "جَمْعِيَّات"
-                }
-            },
-            {
-                "deutsch": "so, auf diese Weise",
-                "arabisch": {
-                    "singular": "هَكَذَا",
-                    "plural": "-"
-                }
-            }
-        ]
-        
-    
+        }
+    },
+    {
+        "deutsch": "während, im Laufe von, inzwischen, mittels",
+        "arabisch": {
+            "singular": "خِلالَ",
+            "plural": "-"
+        }
+    },
+    {
+        "deutsch": "Kinderkrippe",
+        "arabisch": {
+            "singular": "حَضَانَة",
+            "plural": "حَضَانَات"
+        }
+    },
+    {
+        "deutsch": "Kindergarten",
+        "arabisch": {
+            "singular": "رَوْضَة",
+            "plural": "رَوْضَات"
+        }
+    },
+    {
+        "deutsch": "Vorschule, vorbereitend, vorläufig",
+        "arabisch": {
+            "singular": "التَّمْهِيدِي",
+            "plural": "-"
+        }
+    },
+    {
+        "deutsch": "Gewohnheit, Regel, Brauch, Sitte",
+        "arabisch": {
+            "singular": "عَادَة",
+            "plural": "عَادَات"
+        }
+    },
+    {
+        "deutsch": "staatlich, behördlich",
+        "arabisch": {
+            "singular": "حُكُومِيّ",
+            "plural": "-"
+        }
+    },
+    {
+        "deutsch": "heimisch, inländisch, national, privat",
+        "arabisch": {
+            "singular": "أَهْلِيّ",
+            "plural": "-"
+        }
+    },
+    {
+        "deutsch": "Organisation, Verein, Gemeinschaft",
+        "arabisch": {
+            "singular": "جَمْعِيَّة",
+            "plural": "جَمْعِيَّات"
+        }
+    },
+    {
+        "deutsch": "so, auf diese Weise",
+        "arabisch": {
+            "singular": "هَكَذَا",
+            "plural": "-"
+        }
+    }
+]
