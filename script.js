@@ -10,7 +10,6 @@ const progressEl = document.getElementById('progress');
 const resultEl = document.getElementById('result');
 
 // Definition der Bücher und Kapitel
-// Definition der Bücher und Kapitel
 const books = {
     "Buch 1": [
         "Kapitel 1: Einführungen",
@@ -49,7 +48,6 @@ const books = {
         "Kapitel 16: Energie"
     ]
 };
-
 
 let currentBook = null;
 let currentChapter = null;
@@ -128,21 +126,34 @@ function startQuiz(book, chapter) {
     quizContainer.style.display = 'block';
     resultEl.style.display = 'none';
 
-    // Buch- und Kapitelnummer extrahieren
-    let bookNumber = book.split(' ')[1]; // "Buch 1" -> "1"
-    let chapterNumber = chapter.split(' ')[1]; // "Kapitel 1" -> "1"
+    // Buch- und Kapitelnummer mithilfe von Regex extrahieren
+    let bookNumberMatch = book.match(/\d+/);
+    let chapterNumberMatch = chapter.match(/Kapitel\s*(\d+)/i);
+    let bookNumber = bookNumberMatch ? bookNumberMatch[0] : null;
+    let chapterNumber = chapterNumberMatch ? chapterNumberMatch[1] : null;
+
+    if (bookNumber === null || chapterNumber === null) {
+        console.error('Konnte Buch- oder Kapitelnummer nicht extrahieren');
+        alert('Fehler beim Lesen der Buch- oder Kapitelnummer');
+        return;
+    }
+
+    // Führende Nullen hinzufügen, falls die Dateinamen führende Nullen haben
+    let chapterNumberPadded = chapterNumber.padStart(2, '0');
 
     // Datenpfad erstellen
-    let dataPath = `data/buch${bookNumber}/kapitel${chapterNumber}.json`;
+    let dataPath = `data/buch${bookNumber}/kapitel${chapterNumberPadded}.json`;
 
     // Pfad ausgeben
+    console.log('Buchnummer:', bookNumber);
+    console.log('Kapitelnummer:', chapterNumber);
     console.log('Datenpfad:', dataPath);
 
     // Daten laden
     fetch(dataPath)
         .then(response => {
             if (!response.ok) {
-                throw new Error(`Fehler beim Laden der Datei: ${response.statusText}`);
+                throw new Error(`Fehler beim Laden der Datei: ${response.status} ${response.statusText}`);
             }
             return response.json();
         })
@@ -154,20 +165,19 @@ function startQuiz(book, chapter) {
         })
         .catch(error => {
             console.error('Fehler beim Laden der Vokabeln:', error);
-            alert('Die Vokabeln konnten nicht geladen werden. Bitte überprüfen Sie, ob die JSON-Datei vorhanden und korrekt formatiert ist.');
+            alert(`Die Vokabeln konnten nicht geladen werden. Fehler: ${error.message}`);
         });
 }
 
 function initializeProgress() {
     progressEl.innerHTML = ''; // Fortschrittsbereich leeren
-    for (let i = 0; i < vocabList.length; i++) { // Sicherstellen, dass vocabList existiert
+    for (let i = 0; i < vocabList.length; i++) {
         let circle = document.createElement('div');
         circle.classList.add('circle');
         circle.textContent = i + 1;
         progressEl.appendChild(circle);
     }
 }
-
 
 function loadQuestion() {
     if (currentIndex < vocabList.length) {
@@ -194,7 +204,9 @@ showAnswerBtn.addEventListener('click', () => {
 
     if (vocab.arabisch.singular) {
         arabicInfo += `<p>Singular: ${vocab.arabisch.singular}</p>`;
-        arabicInfo += `<p>Plural: ${vocab.arabisch.plural}</p>`;
+        if (vocab.arabisch.plural) {
+            arabicInfo += `<p>Plural: ${vocab.arabisch.plural}</p>`;
+        }
     } else if (vocab.arabisch.verb) {
         arabicInfo += `<p>Vergangenheit: ${vocab.arabisch.verb.Vergangenheit}</p>`;
         arabicInfo += `<p>Gegenwart: ${vocab.arabisch.verb.Gegenwart}</p>`;
@@ -209,17 +221,16 @@ showAnswerBtn.addEventListener('click', () => {
 correctBtn.addEventListener('click', () => {
     userAnswers.push(true);
     updateProgress(true);
-    currentIndex++; // Verschoben nach updateProgress
+    currentIndex++;
     loadQuestion();
 });
 
 incorrectBtn.addEventListener('click', () => {
     userAnswers.push(false);
     updateProgress(false);
-    currentIndex++; // Verschoben nach updateProgress
+    currentIndex++;
     loadQuestion();
 });
-
 
 function updateProgress(isCorrect) {
     let circles = document.querySelectorAll('.circle');
@@ -235,9 +246,6 @@ function updateProgress(isCorrect) {
         console.error('Kein Kreis gefunden für den aktuellen Index');
     }
 }
-
-
-
 
 function showResult() {
     quizContainer.style.display = 'none';
