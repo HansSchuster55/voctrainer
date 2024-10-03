@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
     font-size: 16px; /* Standardgröße für den gesamten Text */
     margin: 0;
     display: flex;
@@ -38,6 +38,16 @@ body {
     margin-bottom: 20px;
 }
 
+
+.noto-sans-arabic {
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 500px;
+}
+
 .circle {
     width: 35px;
     height: 35px;
@@ -69,3 +79,4 @@ body {
 #main-content p {
     font-size: 30px !important; /* Text im Hauptbereich größer */
 }
+
